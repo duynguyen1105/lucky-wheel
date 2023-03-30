@@ -112,17 +112,11 @@
       ctx.moveTo(0, 0)
       ctx.rotate((((360 / num) * i - rotateDeg) * Math.PI) / 180)
       ctx.arc(0, 0, 250, 0, (2 * Math.PI) / num, false) // Radius
-      if (i == 0) {
+      if (i % 3 == 0) {
         ctx.fillStyle = '#1592e8'
-      } else if (i == 1) {
+      } else if (i % 3 == 1) {
         ctx.fillStyle = '#14c187'
-      } else if (i == 2) {
-        ctx.fillStyle = '#fc7800'
-      } else if (i == 3) {
-        ctx.fillStyle = '#ba4d4e'
-      } else if (i == 4) {
-        ctx.fillStyle = '#1592e8'
-      } else if (i == 5) {
+      } else if (i % 3 == 2) {
         ctx.fillStyle = '#fc7800'
       }
       ctx.fill()
