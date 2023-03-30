@@ -82,6 +82,7 @@
 /*Change this when change size*/
 
 .hc-luckywheel-btn {
+  border: none;
   position: absolute;
   left: 210px;
   /*Change this when change size*/
