@@ -136,3 +136,28 @@ body {
 .bg {
   background-image: url('../images/bg.png');
 }
+
+@media only screen and (max-width: 500px) {
+  .hc-luckywheel-item span {
+    -webkit-transform-origin: 50% 175px;
+    /*Change this when change size*/
+    -ms-transform-origin: 50% 175px;
+    /*Change this when change size*/
+    transform-origin: 50% 175px;
+  }
+
+  .hc-luckywheel-btn {
+    top: 140px;
+    left: 135px;
+  }
+
+  .hc-luckywheel-item {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .hc-luckywheel {
+    width: 350px;
+    height: 350px;
+  }
+}
